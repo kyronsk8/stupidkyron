@@ -4,7 +4,7 @@ from google.cloud import storage
 
 # Configure Google Cloud Storage
 BUCKET_NAME = "cnd-storage"  # Replace with your bucket name
-PROJECT_ID = "your-project-id"  # Replace with your project ID
+PROJECT_ID = "cnd-project-448208"  # Replace with your project ID
 storage_client = storage.Client(project=PROJECT_ID)
 bucket = storage_client.bucket(BUCKET_NAME)
 
